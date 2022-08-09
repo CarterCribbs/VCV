@@ -18,8 +18,8 @@ Change days_ago_start and days_ago_end in the driver if a new day range is desir
 
 str_start_date = start_date.strftime("%Y%m%d")
 str_end_date = end_date.strftime("%Y%m%d")
-csv_MINN_file_name = str_start_date + "-" + "20220729" + " MISO Day-Ahead Energy Price.csv"
-##csv_MINN_file_name = str_start_date + "-" + str_end_date + " MISO Day-Ahead Energy Price.csv"
+csv_MINN_file_name = str_start_date + "-" + str_end_date + " MISO Day-Ahead Energy Price.csv"
+##csv_MINN_file_name = str_start_date + "-" + "20220729" + " MISO Day-Ahead Energy Price.csv"
 
 
 '''
