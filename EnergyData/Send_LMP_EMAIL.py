@@ -12,10 +12,10 @@ import os
 time.sleep(250)
 
 email = "vcvdigitalteam@outlook.com"
-password = ""
+password = "***"
 
 host = "smtp-mail.outlook.com"
-port = 587
+port = ***
 
 server = smtplib.SMTP(host, port)
 
@@ -35,7 +35,7 @@ server.login(email, password)
 
 #def send_mail(body):
 sender_mail = email
-receiver_email = "jerry.tang@vcvdigital.com, cribbs.carter@gmail.com" 
+receiver_email = "***" 
 ##receiver_email = "carter.cribbs@duke.edu"
 
 html = '''\
