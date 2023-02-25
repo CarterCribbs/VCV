@@ -7,6 +7,6 @@ In the code I use selenium to fetch electiricty data from the web.
 I then use pandas to manipulate the data and produce a graph charting 
 historical energy prices.
 
-The graph is then sent to the CEO using automated email messaging framework.
+The graph is then sent to the CEO using the smtplib module (automated email messaging framework).
 
 This process was automated to run daily. 
