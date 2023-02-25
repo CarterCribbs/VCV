@@ -12,7 +12,7 @@ import os
 time.sleep(250)
 
 email = "vcvdigitalteam@outlook.com"
-password = "VCVDigital"
+password = ""
 
 host = "smtp-mail.outlook.com"
 port = 587
